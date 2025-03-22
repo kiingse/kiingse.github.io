@@ -1,56 +1,84 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twoje Imię - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sebastian Król - Backend Python Developer</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Twoje Imię</h1>
-        <p>Twój tytuł zawodowy / specjalizacja</p>
+        <div class="container">
+            <h1>Sebastian Król</h1>
+            <p>Backend Python Developer</p>
+        </div>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#o-mnie">O mnie</a></li>
-            <li><a href="#doswiadczenie">Doświadczenie</a></li>
-            <li><a href="#umiejetnosci">Umiejętności</a></li>
-            <li><a href="#projekty">Projekty</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section id="o-mnie">
-            <h2>O mnie</h2>
-            <p>Tutaj wpisz krótkie wprowadzenie o sobie.</p>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Backend developer with approximately 2.5 years of commercial experience in IT, specializing in Python, FastAPI and Django. Possesses solid skills in designing and enhancing scalable REST APIs, optimizing code performance and managing databases. Committed to continuous improvement of skills, particularly in the areas of Python and DevOps. Previous experience as an Electrical Installations Designer allows for bringing diverse skills to software engineering projects</p>
         </section>
-        
-        <section id="doswiadczenie">
-            <h2>Doświadczenie</h2>
-            <!-- Tutaj dodaj swoje doświadczenie zawodowe -->
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Backend Python Developer - Momentum Sp. z o. o.</h3>
+                <p><em>October 2022 - Present</em></p>
+                <p>Independently maintain and develop the backend of an EdTech application used by approximately 350,000 unique users, handling around 3.5 million requests per day.</p>
+                <ul>
+                    <li>Design, implement and continuously enhance robust REST APIs using mainly FastAPI but also Django to power the application's frontend and integrations.</li>
+                    <li>Optimize application performance by identifying and resolving bottlenecks, resulting in a 20% improvement in response times.</li>
+                    <li>Manage and optimize the PostgreSQL database, including data modeling, schema changes and complex query tuning.</li>
+                    <li>Develop and maintain a comprehensive suite of unit, integration and end-to-end tests to ensure code quality and stability.</li>
+                    <li>Maintain application monitoring systems (using Sentry, Prometheus, Loki, Grafana) and debug errors to improve system stability.</li>
+                    <li>Participate in code reviews, knowledge sharing and continuous learning to uphold engineering best practices.</li>
+                    <li>Collaborate closely with frontend developers, product managers and designers to deliver new features and improvements.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Electrical Installations Designer - SYSTRA S.A.</h3>
+                <p><em>September 2020 - October 2022</em></p>
+                <ul>
+                    <li>Designed and developed electrical systems and installations.</li>
+                    <li>Created 3D visualizations to enhance the design process.</li>
+                    <li>Utilized Lisp programming to extend AutoCAD functionality and developed Excel macros for task automation.</li>
+                </ul>
+            </div>
         </section>
-        
-        <section id="umiejetnosci">
-            <h2>Umiejętności</h2>
-            <!-- Tutaj wymień swoje umiejętności -->
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-item">Python</span>
+                <span class="skill-item">FastAPI</span>
+                <span class="skill-item">Django</span>
+                <span class="skill-item">SQLAlchemy</span>
+                <span class="skill-item">PostgreSQL</span>
+                <span class="skill-item">GIT</span>
+                <span class="skill-item">Linux/Unix</span>
+                <span class="skill-item">Redis</span>
+                <span class="skill-item">Docker</span>
+                <span class="skill-item">Celery</span>
+            </div>
         </section>
-        
-        <section id="projekty">
-            <h2>Projekty</h2>
-            <!-- Tutaj opisz swoje projekty -->
+
+        <section id="education">
+            <h2>Education</h2>
+            <h4>Master of Science in Electrical Power Engineering</h4>
+            <p>Wroclaw University of Technology, Faculty of Electrical Engineering (2018-2019)</p>
+            <h4>Bachelor of Science in Electrical Engineering</h4>
+            <p>Wroclaw University of Technology, Faculty of Electrical Engineering (2014-2018)</p>
         </section>
-        
-        <section id="kontakt">
-            <h2>Kontakt</h2>
-            <!-- Tutaj dodaj swoje dane kontaktowe -->
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Phone: +48 605 475 102</p>
+                <p>Email: krolsebastian11@gmail.com</p>
+                <p>Location: Wroclaw, Poland</p>
+            </div>
         </section>
     </main>
-    
-    <footer>
-        <p>&copy; 2025 Twoje Imię. Wszelkie prawa zastrzeżone.</p>
-    </footer>
 </body>
 </html>
